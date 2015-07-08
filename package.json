@@ -1,6 +1,6 @@
 {
   "name": "generator-generator-coffee",
-  "version": "0.1.0",
+  "version": "0.9.0",
   "description": "Generate a yeoman generator with an optional --coffee flag.",
   "keywords": [
     "yeoman-generator",

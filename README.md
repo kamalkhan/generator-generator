@@ -4,7 +4,7 @@
 
 Maintainer: [Pascal Hartig](https://github.com/passy)
 
-Contributors:
+Contributor:
     --coffee by [Kamal Khan](http://bhittani.com)
 
 ![Yo dawg, I heard you like generators?](http://i.imgur.com/2gqiift.jpg)
@@ -13,21 +13,21 @@ Contributors:
 ## Getting started
 
 - Install: `npm install -g generator-generator-coffee`
-- Run: `yo generator-coffee`
+- Run: `yo generator-coffee --coffee`
 
 If during generation you get an error like `API rate limit exceeded`, you need to log in to GitHub
 and [create a new API token](https://github.com/settings/tokens/new), then add:
 ```bash
 export GITHUB_TOKEN='YOUR_NEW_TOKEN'
 ```
-to your `.bashrc`, `.zshrc`, `.profile` or another file that is run on shell initialization. In new terminal shells
-you shouldn't see this error anymore.
+to your `.bashrc`, `.zshrc`, `.profile` or another file that is run on shell initialization. In new terminal shells you shouldn't see this error anymore.
 
 
 ## Commands
 
 * `yo generator` shows a wizard for generating a new generator
 * `yo generator:subgenerator NAME` generates a subgenerator with the name NAME
+
 > --coffee will scaffold a coffeescript version.
 
 ## What do you get?
