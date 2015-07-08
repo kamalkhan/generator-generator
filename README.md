@@ -25,8 +25,8 @@ to your `.bashrc`, `.zshrc`, `.profile` or another file that is run on shell ini
 
 ## Commands
 
-* `yo generator` shows a wizard for generating a new generator
-* `yo generator:subgenerator NAME` generates a subgenerator with the name NAME
+* `yo generator-coffee` shows a wizard for generating a new generator
+* `yo generator-coffee:subgenerator NAME` generates a subgenerator with the name NAME
 
 > --coffee will scaffold a coffeescript version.
 
